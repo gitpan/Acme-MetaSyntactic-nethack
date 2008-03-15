@@ -1,6 +1,6 @@
 ---
 name: Acme-MetaSyntactic-nethack
-version: v1.0.0
+version: 1.000001
 author:
   - 'Elliot Shank <perl@galumph.com>'
 abstract: The largest time waster in the world of *nix.
@@ -24,12 +24,12 @@ recommends:
   Test::Pod: 0
   Test::Pod::Coverage: 0
   Test::Spelling: 0
-dynamic_config: 1
+dynamic_config: 0
 provides:
   Acme::MetaSyntactic::nethack:
     file: lib/Acme/MetaSyntactic/nethack.pm
-    version: v1.0.0
+    version: 1.000001
 generated_by: Module::Build version 0.2808
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3

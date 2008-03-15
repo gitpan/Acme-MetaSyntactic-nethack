@@ -18,21 +18,13 @@ my $class = Module::Build->subclass( code => <<'SUBCLASS' );
         $self->depends_on('test');
     } # end ACTION_authortest()
 
-    sub ACTION_distdir {
-        my $self = shift;
-
-        $self->depends_on('authortest');
-
-        $self->SUPER::ACTION_distdir;
-    } # end ACTION_distdir
-
 SUBCLASS
 
 my $builder = $class->new(
-    module_name         => 'Acme::MetaSyntactic::nethack',
-    license             => 'perl',
-    dist_author         => 'Elliot Shank <perl@galumph.com>',
-    dynamic_config  => 1,
+    module_name     => 'Acme::MetaSyntactic::nethack',
+    license         => 'perl',
+    dist_author     => 'Elliot Shank <perl@galumph.com>',
+    dynamic_config  => 0,
     build_requires  => {
         'version'           => 0,
         'Test::More'        => 0,

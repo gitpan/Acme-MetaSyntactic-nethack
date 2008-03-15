@@ -1,4 +1,4 @@
-Acme-MetaSyntactic-nethack version 1.0.0
+Acme-MetaSyntactic-nethack version 1.0.1
 
 Adds Vim theme to Acme::Metasyntactic.
 
@@ -29,7 +29,7 @@ a bug in those tools and not in this distribution.
 
 COPYRIGHT AND LICENCE
 
-Copyright ©2007, Elliot Shank
+Copyright ©2007-2008, Elliot Shank
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
